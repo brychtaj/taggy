@@ -9,6 +9,5 @@ class TagStub extends Model
     use TaggableTrait;
 
     protected $connection = "testbench";
-
     public $table = "tags";
 }
